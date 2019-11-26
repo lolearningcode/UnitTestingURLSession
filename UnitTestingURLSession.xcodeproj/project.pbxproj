@@ -14,6 +14,8 @@
 		EC83A8C5238DDD2E005E5812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC83A8C4238DDD2E005E5812 /* Assets.xcassets */; };
 		EC83A8C8238DDD2E005E5812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC83A8C6238DDD2E005E5812 /* LaunchScreen.storyboard */; };
 		EC83A8D3238DDD2E005E5812 /* UnitTestingURLSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83A8D2238DDD2E005E5812 /* UnitTestingURLSessionTests.swift */; };
+		EC83A8DE238DDE55005E5812 /* APIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83A8DD238DDE55005E5812 /* APIRepository.swift */; };
+		EC83A8E0238DDEDC005E5812 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83A8DF238DDEDC005E5812 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		EC83A8CE238DDD2E005E5812 /* UnitTestingURLSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingURLSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC83A8D2238DDD2E005E5812 /* UnitTestingURLSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingURLSessionTests.swift; sourceTree = "<group>"; };
 		EC83A8D4238DDD2E005E5812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC83A8DD238DDE55005E5812 /* APIRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRepository.swift; sourceTree = "<group>"; };
+		EC83A8DF238DDEDC005E5812 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				EC83A8C4238DDD2E005E5812 /* Assets.xcassets */,
 				EC83A8C6238DDD2E005E5812 /* LaunchScreen.storyboard */,
 				EC83A8C9238DDD2E005E5812 /* Info.plist */,
+				EC83A8DD238DDE55005E5812 /* APIRepository.swift */,
+				EC83A8DF238DDEDC005E5812 /* Movie.swift */,
 			);
 			path = UnitTestingURLSession;
 			sourceTree = "<group>";
@@ -200,9 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC83A8DE238DDE55005E5812 /* APIRepository.swift in Sources */,
 				EC83A8C0238DDD2B005E5812 /* ViewController.swift in Sources */,
 				EC83A8BC238DDD2B005E5812 /* AppDelegate.swift in Sources */,
 				EC83A8BE238DDD2B005E5812 /* SceneDelegate.swift in Sources */,
+				EC83A8E0238DDEDC005E5812 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
